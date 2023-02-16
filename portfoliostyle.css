@@ -1,0 +1,280 @@
+body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: large;
+      background-color: #305865;
+}
+
+main {
+      margin: 1%;
+}
+
+header {
+      text-align: left;
+      padding: 1vh 0rem;
+}
+
+h1 {
+      font-size: 3vh;
+      text-indent: 3rem;
+      margin-bottom: 1vh;
+}
+
+hr {
+      display: block;
+      width: 20vw;
+      margin-left: 3vw;
+      margin-top: 0;
+      margin-bottom: 2vh;
+      border-color: #60615e;
+}
+
+.experience-section,
+.education-section,
+.skills-section,
+.about-section,
+.blog-section,
+.home-content,
+.portfolio-section {
+      margin: 1rem 0rem;
+      padding-bottom: 5rem;
+      display: block;
+      background-color: #C1D7C4;
+}
+
+
+.navibar ul {
+      list-style-type: none;
+      align-items: center;
+      overflow: hidden;
+      padding: 0;
+      margin: 0;
+      background-color: #CFE0C3;
+      font-weight: bolder;
+      font-size: 120%;
+}
+
+.navibar li,
+.experience-section li {
+      float: left;
+}
+
+.navibar li a {
+      text-align: center;
+      color: #192D32;
+      text-decoration: none;
+      display: block;
+      padding: 1rem 1.5rem;
+}
+
+
+.navibar a:hover {
+      background-color: #305865;
+      color: #CFE0C3;
+}
+
+.about-section {
+      padding: 2rem 0rem 8rem;
+      display: block;
+}
+
+.about-section .container {
+      font-size: x-large;
+      display: block;
+      padding: 2rem;
+      margin: 5% 20%;
+      margin-right: 3rem;
+      border: .5vh dashed #294951;
+      background-color: rgb(192, 214, 214);
+}
+
+.about-section img {
+      max-width: 17%;
+      height: auto;
+      float: left;
+      border: none;
+      border-radius: 2ex;
+}
+
+.experience-section ul {
+      list-style-type: none;
+      align-items: center;
+      overflow: hidden;
+      background-color: #CFE0C3;
+      font-weight: bolder;
+      margin: 1rem;
+      padding: 3vh 3vw;
+      background-color: rgb(192, 214, 214);
+      border-radius: 1rem;
+      box-shadow: .5vh .5vh 2vh rgba(0, 0, 0, 0.2);
+}
+
+.experience-section li {
+      margin:0vh 1vw;
+      padding: 2vh;
+      height: 20vh;
+      width: 25vw;
+      border-left: 1pt solid #60615E;
+      border-right: 1pt solid #60615E;
+}
+
+.content {
+      display: grid;
+      gap: 5vh;
+      padding: 5vh;
+      margin: 2rem;
+      grid-template-columns: auto auto auto;
+      background-color: rgb(192, 214, 214);
+      box-shadow: 0 1vh 5vh rgba(0, 0, 0, 0.4);
+}
+
+.skill-card {
+      text-align: center;
+      padding: 2rem;
+      margin-top: 1rem;
+      background-color: rgb(213, 227, 230);
+      box-shadow: 0 1vh 3vh rgba(0, 0, 0, 0.3);
+      border-radius: 1rem;
+      width: 20vw;
+}
+
+.blog-section {
+      text-align: center;
+}
+
+.login-content {
+      width: 30rem;
+      overflow: hidden;
+      margin: auto;
+      margin-top: 4rem;
+      padding: 2rem;
+      background: #6da5ab;
+      border-radius: 1rem;
+      box-shadow: 0 1vh 3vh rgba(0, 0, 0, 0.3);
+
+}
+
+
+.blog-section form {
+      margin: auto;
+      display: block;
+}
+
+.blog-section h3 {
+      display: block;
+      text-align: center;
+      margin-bottom: 2rem;
+
+}
+
+#Pass,
+#User {
+      width: 20rem;
+      height: 2rem;
+      border: none;
+      border-radius: 1ex;
+      padding-left: 8px;
+}
+
+#log,
+#submit {
+      width: 7rem;
+      height: 2rem;
+      display: block;
+      border: none;
+      margin: auto;
+      border-radius: 2ex;
+      color: #000000;
+}
+
+.post {
+      background-color: #c1debd;
+      margin: 5% 20%;
+      padding: 2rem 1rem;
+      box-shadow: 0 1vh 3vh rgba(0, 0, 0, 0.3);
+      border-radius: 1rem;
+}
+
+#blog-post {
+      display: block;
+      width: 60%;
+      margin: auto;
+      margin-bottom: 2rem;
+      padding: 1rem;
+}
+
+.previous,
+.old-post {
+      display: block;
+      width: 80%;
+      margin: auto;
+      margin-top: 1rem;
+      padding: 1rem;
+      border-radius: 1rem;
+      background-color: #A7C8C7;
+      
+}
+
+.old-post {
+      background-color: rgb(213, 227, 230);
+      text-align: left;
+}
+
+.home-content {
+      padding: 2rem;
+      padding-bottom: 4rem;
+}
+
+.home-content header {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      display: block;
+      text-align: center;
+      font-size: 5vh;
+}
+
+.home-content hr {
+      margin: 2vh 33%;
+      width: 33%;
+      border-color: #192d32ed;
+}
+
+.home-content img {
+      padding: 1vh;
+      display: inline-block;
+      width: 8vh;
+      margin: auto 10%;
+      border-radius: 1vh;
+}
+
+.home-content a :hover {
+      padding: 1vh;
+      background-color: #A7C8C7;
+}
+
+footer {
+      text-align: center;
+}
+
+.portfolio-entry {
+      margin: 2rem;
+      padding: 1rem 2rem;
+      padding-bottom: 2rem;
+      background-color: #A7C8C7;
+      border-radius: 1rem;
+      box-shadow: .5vh .5vh 2vh rgba(0, 0, 0, 0.2);
+      height: 18vh;
+}
+
+.portfolio-text {
+      font-size: large;
+      margin-left: 15vw;
+      padding: 1vh 2vh;
+      border-radius: 1rem;
+      background-color: rgb(213, 227, 230);
+      height: 18vh;
+}
+
+.portfolio-entry img {
+      float: left;
+      border-radius: 1vh;
+      width: 20vh;
+}

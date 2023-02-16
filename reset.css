@@ -1,0 +1,54 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h4,
+h5,
+h6,
+p,
+figcaption,
+ul,
+li,
+div,
+label,
+hgroup,
+menu,
+nav,
+caption,
+strong,
+section,
+object,
+tr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1rem;
+    font-style: inherit;
+    font-weight: normal;
+    font-family: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    line-height: 1;
+}
+
+article,
+footer,
+header,
+hgroup,
+nav,
+figcaption {
+    display: block;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
